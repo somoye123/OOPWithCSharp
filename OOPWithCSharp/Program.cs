@@ -16,6 +16,14 @@ namespace OOPWithCSharp
 
 			// constant are declared once and can not be changed later on
 			const int A_CONST_INT = 100;
+
+			// Primitive Data Types
+
+			// ints by default are 32 bits
+			// can hold numbers from -2,147,483,648 to 2,147,483,648
+			// by default signed(hold negative numbers)
+			int anInt = 1;
+			const int THE_CONST_INT = 2;
 		}
 	}
 }
