@@ -6,7 +6,8 @@ namespace OOPWithCSharp
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			// variables are declared once and can be changed later on
+
 		}
 	}
 }
