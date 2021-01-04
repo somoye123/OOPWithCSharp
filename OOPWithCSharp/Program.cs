@@ -19,11 +19,19 @@ namespace OOPWithCSharp
 
 			// Primitive Data Types
 
+			//interger
 			// ints by default are 32 bits
 			// can hold numbers from -2,147,483,648 to 2,147,483,648
 			// by default signed(hold negative numbers)
 			int anInt = 1;
 			const int THE_CONST_INT = 2;
+
+			//float
+			// ints by default are 32 bits
+			// can hold numbers from -3.4*10^38 to 3.4*10^38
+			// ends with f otherwise it will assume it a double
+			// accurate to 7 decimal units
+			float aFloat = 2.56f;
 		}
 	}
 }
