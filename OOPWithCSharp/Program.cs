@@ -31,7 +31,8 @@ namespace OOPWithCSharp
 			// can hold numbers from -3.4*10^38 to 3.4*10^38
 			// ends with f otherwise it will assume it a double
 			// accurate to 7 decimal units
-			float aFloat = 2.56f;
+			float aFloat = 2.5634523f;
+			const float MY_FLOAT = 2.1425f;
 		}
 	}
 }
