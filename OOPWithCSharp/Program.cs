@@ -26,6 +26,7 @@ namespace OOPWithCSharp
 			int anInt = 1;
 			const int THE_CONST_INT = 2;
 
+			
 			//float
 			// ints by default are 32 bits
 			// can hold numbers from -3.4*10^38 to 3.4*10^38
@@ -33,6 +34,12 @@ namespace OOPWithCSharp
 			// accurate to 7 decimal units
 			float aFloat = 2.5634523f;
 			const float MY_FLOAT = 2.1425f;
+
+			//double
+			// double by default are 64 bits
+			// accurate to 15-16 decimal units
+			double aDouble = 2.56345234;
+			const double MY_DOUBLE = 2.1425;
 		}
 	}
 }
