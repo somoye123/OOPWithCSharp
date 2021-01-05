@@ -56,6 +56,12 @@ namespace OOPWithCSharp
 			ulong myUlong = 33333;
 			ushort myUshort = 33333;
 
+			//---------------------------------------------------------
+			//signed version of a byte
+			//sbyte
+			sbyte mySbyte = -120;
+
+
 			//float
 			// ints by default are 32 bits
 			// can hold numbers from -3.4*10^38 to 3.4*10^38
