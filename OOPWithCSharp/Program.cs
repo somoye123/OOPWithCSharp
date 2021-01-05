@@ -26,7 +26,16 @@ namespace OOPWithCSharp
 			int anInt = 1;
 			const int THE_CONST_INT = 2;
 
-			
+			//---------------------------------------------------------
+
+			//byte
+			//8 bit versions of an Int
+			//unsigned by default
+			//range from 0 to 255
+			byte myByte = 23;
+			const byte MY_CONST_BYTE = 200;
+
+
 			//float
 			// ints by default are 32 bits
 			// can hold numbers from -3.4*10^38 to 3.4*10^38
