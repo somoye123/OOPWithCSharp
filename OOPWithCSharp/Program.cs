@@ -35,6 +35,13 @@ namespace OOPWithCSharp
 			byte myByte = 23;
 			const byte MY_CONST_BYTE = 200;
 
+			//short
+			//16 bit versions of an Int
+			//signed by default
+			//range from -32,768 to 32,767
+			short myShort = 23000;
+			const short MY_CONST_SHORT = -32000;
+
 
 			//float
 			// ints by default are 32 bits
