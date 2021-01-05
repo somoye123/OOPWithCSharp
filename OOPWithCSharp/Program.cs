@@ -48,6 +48,14 @@ namespace OOPWithCSharp
 			long myLong = 2333344543323;
 			const long MY_CONST_LONG = 200443322334343;
 
+			//---------------------------------------------------------
+			// unsigned version
+
+			//uint, ulong, ushort
+			uint myUint = 33333;
+			ulong myUlong = 33333;
+			ushort myUshort = 33333;
+
 			//float
 			// ints by default are 32 bits
 			// can hold numbers from -3.4*10^38 to 3.4*10^38
