@@ -42,6 +42,11 @@ namespace OOPWithCSharp
 			short myShort = 23000;
 			const short MY_CONST_SHORT = -32000;
 
+			//long
+			//64 bit versions of an Int
+			//range from -9.2*10^18 to 9.2*10^18
+			long myLong = 2333344543323;
+			const long MY_CONST_LONG = 200443322334343;
 
 			//float
 			// ints by default are 32 bits
