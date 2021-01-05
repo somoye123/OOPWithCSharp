@@ -46,6 +46,11 @@ namespace OOPWithCSharp
 			//letter to symbol
 			char myChar = 'a';
 			const char MY_CONST_CHAR = '-';
+
+			//boolean
+			//bool holds a value of true or false
+			bool myBool = true;
+			const bool MY_CONST_BOOL = false;
 		}
 	}
 }
