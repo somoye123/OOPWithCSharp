@@ -6,7 +6,7 @@ namespace OOPWithCSharp
 	{
 		static void Main(string[] args)
 		{
-			// variables are declared once and can be changed later on
+			// variables are declared once and can be changed later ono
 
 			// Naming of variables or constant start with a letter
 			// followed by a number or an underscore(_)
@@ -40,6 +40,12 @@ namespace OOPWithCSharp
 			// accurate to 15-16 decimal units
 			double aDouble = 2.56345234;
 			const double MY_DOUBLE = 2.1425;
+
+			//char
+			//they hold a value at a time
+			//letter to symbol
+			char myChar = 'a';
+			const char MY_CONST_CHAR = '-';
 		}
 	}
 }
