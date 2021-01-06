@@ -139,6 +139,17 @@ namespace OOPWithCSharp
 			Console.WriteLine(intB);
 			char charB = (char)intB;
 			Console.WriteLine(charB);
+
+			//Using Convert Class
+			//string is an array of characters
+			string myString = "1200";
+			//myString = myString + 50;
+			Console.WriteLine(myString);
+
+			int myNewInt = Convert.ToInt32(myString);
+			long myNewLong = Convert.ToInt64(myString);
+			myNewInt += 50;
+			Console.WriteLine(myNewInt);
 		}
 	}
 }
