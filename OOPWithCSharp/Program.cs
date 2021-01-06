@@ -88,8 +88,29 @@ namespace OOPWithCSharp
 			bool myBool = true;
 			const bool MY_CONST_BOOL = false;
 
-			//overflowing is when you try to assign a type a value too large for the container
-			//Example sbyte myOverflow = 129;
+            //overflowing is when you try to assign a type a value too large for the container
+            //Example sbyte myOverflow = 129;
+
+            //Scope refers to the access level of values
+            int testInt = 10;
+            if (testInt == 10)
+            {
+				Console.WriteLine(testInt);
+				Console.WriteLine("I'm 10");
+				testInt = 25;
+				Console.WriteLine(testInt);
+				int newInt = -1;
+
+				bool myNewBool = true;
+                if (myNewBool)
+                {
+					newInt = -10;
+					Console.WriteLine(newInt);
+
+				}
+			}
+			// the newInt variable update would throw an error as newInt is not in scope anymore
+			//newInt = 20;
 		}
 	}
 }
