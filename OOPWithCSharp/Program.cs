@@ -131,6 +131,14 @@ namespace OOPWithCSharp
 			double doubleB = 2.44324324;
 			float floatB = (float)doubleB;
 			Console.WriteLine(floatB); // lose 2 decimal units
+
+			//Conversion between non-compactible types
+			//ASCII table is used for this
+			char charA = 'a';
+			int intB = charA;
+			Console.WriteLine(intB);
+			char charB = (char)intB;
+			Console.WriteLine(charB);
 		}
 	}
 }
