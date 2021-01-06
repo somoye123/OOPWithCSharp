@@ -59,6 +59,7 @@ namespace OOPWithCSharp
 			//---------------------------------------------------------
 			//signed version of a byte
 			//sbyte
+			//range from -128 to 127 
 			sbyte mySbyte = -120;
 
 
@@ -86,6 +87,9 @@ namespace OOPWithCSharp
 			//bool holds a value of true or false
 			bool myBool = true;
 			const bool MY_CONST_BOOL = false;
+
+			//overflowing is when you try to assign a type a value too large for the container
+			//Example sbyte myOverflow = 129;
 		}
 	}
 }
