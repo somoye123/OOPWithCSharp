@@ -111,6 +111,17 @@ namespace OOPWithCSharp
 			}
 			// the newInt variable update would throw an error as newInt is not in scope anymore
 			//newInt = 20;
+
+			//Type Conversion
+
+			//Implicit conversions
+			//does not require syntax
+			//there is no data loss
+			float floatA = 2.3f;
+			double doubleA = floatA;
+
+			sbyte sbyteA = 12;
+			int intA = sbyteA;
 		}
 	}
 }
