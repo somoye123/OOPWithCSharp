@@ -122,6 +122,15 @@ namespace OOPWithCSharp
 
 			sbyte sbyteA = 12;
 			int intA = sbyteA;
+
+			//Explicit conversion
+			//possible loss of data
+			///require syntax(casting)
+			short shortA = (short)intA;
+
+			double doubleB = 2.44324324;
+			float floatB = (float)doubleB;
+			Console.WriteLine(floatB); // lose 2 decimal units
 		}
 	}
 }
