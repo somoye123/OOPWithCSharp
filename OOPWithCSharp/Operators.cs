@@ -6,5 +6,9 @@ public class Operators
 	{
 		// What are operators?
 		// operators are characters that allow for certain action or operations to take place
+
+		//Equals = 
+		//assignment
+		int myInt = 10;
 	}
 }
