@@ -82,5 +82,10 @@ public class Operators
 		int D = 21;
 		int E = D % 5;
 		Console.WriteLine(E);
-	}
+
+		//?: tenary operator
+		int NewInt = 0;
+		// recipient = condition ? true : false;
+		NewInt = E > 3 ? 5 : 2;
+    }
 }
