@@ -69,5 +69,12 @@ public class Operators
 		{
 			Console.WriteLine("B is bigger");
 		}
+
+		// +=, -=, *=, /=
+		int c = 10;
+		c += 2; //prints 12
+		c -= 2; // prints 10
+		c *= 2; // prints 20
+		c /= 2; // prints 10
 	}
 }
