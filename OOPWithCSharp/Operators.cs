@@ -10,5 +10,12 @@ public class Operators
 		//Equals = 
 		//assignment
 		int myInt = 10;
+
+        //comparing values ==
+        if (myInt == 10)
+        {
+			Console.WriteLine("I'm 10");
+        }
+
 	}
 }
