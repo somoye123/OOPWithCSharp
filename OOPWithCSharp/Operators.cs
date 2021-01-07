@@ -46,5 +46,17 @@ public class Operators
 		//post-incrementation
 		Console.WriteLine(i++); //should still print 1
 		Console.WriteLine(i); //should print 2
+
+		// > < 
+		int A = 10;
+		int B = 15;
+        if (A > B)
+        {
+			Console.WriteLine("A is bigger");
+        }
+        else
+        {
+			Console.WriteLine("B is bigger");
+		}
 	}
 }
