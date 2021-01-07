@@ -93,5 +93,39 @@ public class Operators
 		//these allow for logical operations to take place. These are
 		// AND, OR, and NOT
 		// &&, ||, !
-    }
+
+		bool boolA = true;
+		bool boolB = false;
+        // &&
+        if (boolA && boolB)
+        {
+			Console.WriteLine("YAY!");
+        }
+        else
+        {
+			Console.WriteLine("OH NO!");
+        }
+
+		// ||
+		if (boolA || boolB)
+		{
+			Console.WriteLine("YAY!");
+		}
+		else
+		{
+			Console.WriteLine("OH NO!");
+		}
+
+		// !
+		if (boolA && !boolB) //if boolA is true and boolB is false
+		{
+			Console.WriteLine("YAY!");
+		}
+		else
+		{
+			Console.WriteLine("OH NO!");
+		}
+
+		//How to make comments //
+	}
 }
