@@ -76,5 +76,11 @@ public class Operators
 		c -= 2; // prints 10
 		c *= 2; // prints 20
 		c /= 2; // prints 10
+
+		//Modulo %
+		//remainder
+		int D = 21;
+		int E = D % 5;
+		Console.WriteLine(E);
 	}
 }
