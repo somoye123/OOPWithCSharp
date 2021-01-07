@@ -42,5 +42,9 @@ public class Operators
 		//pre-incrementation
 		int i = 0;
 		Console.WriteLine(++i); // should print 1
+
+		//post-incrementation
+		Console.WriteLine(i++); //should still print 1
+		Console.WriteLine(i); //should print 2
 	}
 }
