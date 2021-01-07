@@ -47,7 +47,7 @@ public class Operators
 		Console.WriteLine(i++); //should still print 1
 		Console.WriteLine(i); //should print 2
 
-		// > < 
+		// > < greater than and lesser than
 		int A = 10;
 		int B = 15;
         if (A > B)
@@ -56,6 +56,17 @@ public class Operators
         }
         else
         {
+			Console.WriteLine("B is bigger");
+		}
+
+		// >= <= greater than or equal and lesser than
+		 B = 15;
+		if (A >= B)
+		{
+			Console.WriteLine("A is bigger");
+		}
+		else
+		{
 			Console.WriteLine("B is bigger");
 		}
 	}
