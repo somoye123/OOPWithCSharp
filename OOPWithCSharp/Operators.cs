@@ -87,5 +87,11 @@ public class Operators
 		int NewInt = 0;
 		// recipient = condition ? true : false;
 		NewInt = E > 3 ? 5 : 2;
+		Console.WriteLine(NewInt);
+
+		//what are logical operators?
+		//these allow for logical operations to take place. These are
+		// AND, OR, and NOT
+		// &&, ||, !
     }
 }
