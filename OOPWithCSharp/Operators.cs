@@ -22,5 +22,9 @@ public class Operators
         {
 			Console.WriteLine("I'm not 8");
         }
+
+		// +
+		myInt = myInt + 2;
+		Console.WriteLine(myInt);
 	}
 }
