@@ -17,5 +17,10 @@ public class Operators
 			Console.WriteLine("I'm 10");
         }
 
+        // not equals !=
+        if (myInt != 8)
+        {
+			Console.WriteLine("I'm not 8");
+        }
 	}
 }
