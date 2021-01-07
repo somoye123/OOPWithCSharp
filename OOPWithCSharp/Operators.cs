@@ -38,5 +38,9 @@ public class Operators
 		// /
 		myInt = myInt / 2;
 		Console.WriteLine(myInt);
+
+		//pre-incrementation
+		int i = 0;
+		Console.WriteLine(++i); // should print 1
 	}
 }
