@@ -30,5 +30,9 @@ public class Operators
 		// -
 		myInt = myInt - 2;
 		Console.WriteLine(myInt);
+
+		// *
+		myInt = myInt * 2;
+		Console.WriteLine(myInt);
 	}
 }
