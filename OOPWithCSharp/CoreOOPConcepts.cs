@@ -21,6 +21,15 @@ public class CoreOOPConcepts
 
 		//static data members/methods - apply to the entire class rather than an instance of it
 		private int nMonsters_;
+
+		//default constructor -initiated all values
+		public Monster()
+        {
+			name_ = "default";
+			size_ = 20;
+			scare_ = 20;
+			nMonsters_++; //increment number of monsters
+        }
 	}
 	static void Main(string[] args)
 	{
