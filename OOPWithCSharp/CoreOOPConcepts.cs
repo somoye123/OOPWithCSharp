@@ -33,5 +33,14 @@ public class CoreOOPConcepts
 	}
 	static void Main(string[] args)
 	{
+		Monster Dinosour = new Monster();
+		//public members
+		Console.WriteLine(Dinosour.name_);
+		//can be changed
+		Dinosour.name_ = "Rex";
+		Console.WriteLine(Dinosour.name_);
+
+		//private members cannot be accessed here
+		// example -- Console.WriteLine(Dinosour.scare_);
 	}
 }
