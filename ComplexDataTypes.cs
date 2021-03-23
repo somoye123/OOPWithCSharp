@@ -45,5 +45,45 @@ public class ComplexDataTypes
 
 		//Bad example
 		//Do not do myString[0] = "y";
+
+
+		//Enumerables
+		//value type
+		//used to declare a list of constant ints
+		//example
+		
+		enum Day
+		{
+			Monday,
+			Tuesday,
+			//...
+		}
+
+		enum Direction
+		{
+			Left,                    //left, as first item wiil get assigned to 0
+			Up,                      //Left =1, Up=2,Right=100,Down=123
+			Right,                   //left =1, as first item...the rest will
+			Down                     //follow the number...Up would be 2...
+		}
+
+	Direction dir = new Direction();
+	dir = Direction.Up;
+
+		if(dir == Direction.Left)
+        {
+			Console.WriteLine("Go Left");
+        }else if (dir == Direction.Up)
+        {
+			Console.WriteLine("Go Up");
+		}
+		else if (dir == Direction.Right)
+        {
+			Console.WriteLine("Go Right");
+		}
+		else if(dir == Direction.Down)
+        {
+			Console.WriteLine("Go Down");
+        }
 	} 
 }
